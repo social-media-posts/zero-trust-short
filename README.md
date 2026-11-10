@@ -29,26 +29,35 @@ Certifique-se de ter o **Node.js** (versão 18 ou superior) instalado na sua má
 ### Instalação
 
 1. Clone o repositório:
-   git clone https://github.com/social-media-posts/zero-trust-short.git
+```bash
+git clone https://github.com/social-media-posts/zero-trust-short.git
+```
 
 2. Entre no diretório do projeto:
-   cd zero-trust-short
+```bash
+cd zero-trust-short
+```
 
 3. Instale as dependências:
-   npm install
+```bash
+npm install
+```
 
 ### Executando a Animação
 
 Inicie o servidor de desenvolvimento do Motion Canvas:
 
+```bash
 npm run start
-ou
+# ou
 npm run dev
+```
 
-Acesse a URL exibida no terminal (geralmente http://localhost:9000) para visualizar o player do Motion Canvas, controlar a linha do tempo e renderizar o vídeo final.
+Acesse a URL exibida no terminal (geralmente `http://localhost:9000`) para visualizar o player do Motion Canvas, controlar a linha do tempo e renderizar o vídeo final.
 
 ## 📂 Estrutura de Pastas
 
+```text
 ├── audio/            # Arquivos de narração e efeitos sonoros (locais)
 ├── src/
 │   ├── scenes/       # Cenas animadas da apresentação (ex: example.tsx)
@@ -58,7 +67,8 @@ Acesse a URL exibida no terminal (geralmente http://localhost:9000) para visuali
 ├── package.json      # Dependências e scripts do projeto
 ├── tsconfig.json     # Configurações do TypeScript
 └── vite.config.ts    # Configurações do Vite
+```
 
 ---
 
-Felipe.
+*Produzido por [Felipe](https://github.com/social-media-posts).*
